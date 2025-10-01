@@ -1,7 +1,5 @@
 # August 27, 2025
-
-
-
+([[Time Complexity Definitions]])
 
 ## Example: Exponentiation (Algorithms section 1.10)
 

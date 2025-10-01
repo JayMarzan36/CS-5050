@@ -1,13 +1,11 @@
 # September 15, 2025
 
-4 Methods to solving recurrences
+4 Methods to solving recurrences ([[Solving Recurrences by Unrolling]])
 *   Expanding the recurrence
 *   Recursion trees
 *   Guess-and-verify
 *   Master Theorem/Master Method
 
-
-## Master theorem/Master Method
 Used for any recurrence of this form `T(n) = aT(n/b) + f(n)` **has to be**. Where `a >= 1, b > 1` and `f(n)` is an asymptotically nonnegative function defined over all sufficiently large positive numbers. (the function doesnt return a negative)
 
 `f(n)` is the deriving function.

@@ -1,6 +1,6 @@
 # September 12, 2025
 Week 3 discussion
-
+([[Finding Time Complexities]])
 ## Consider **stooge** sort, an inefficient but correct recursive algorithm for sorting an array
 
 ```
@@ -21,8 +21,6 @@ function stoogesort(A[], lo, hi) {
 Find runtime complexity
 
 Would the `T(n)` function be, `T(n) = 3T(n2/3)  + c`
-
-
 
 
 ```

@@ -1,7 +1,6 @@
 # September 10
 For homework the math format equations are using python for the interperation
-
-## Solving complex recurrences using recursion tree's
+([[Solving Recurrences by Unrolling]])
 This is one that can show up on the homework
 
 ```
@@ -60,7 +59,7 @@ You find the work done by the recursion (look at how we found work at level 2) a
 The goal is to be able to just look at the recurrence functions `T(n) = somthing` and figure out what the complexity is.
 
 
-## Divide and Conquer
+## Divide and Conquer ([[Divide and Conquer Intro|Divide and Conquer Intro]])
 *   **Divide**
     *   Divide the problem into a number of (usually 2) **subproblems** that are smaller instances of the original problem
 

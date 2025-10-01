@@ -1,6 +1,7 @@
 # September 19, 2025
 
 Week 4 Discussion
+([[Master Theorem and Master Method]])
 
 ## Show that determining if a number is in a balanced binary search tree with n elements is O(log(n))
 The depth of a balanced binary search tree is `O(log(n))`. When searching for a number you only go down one side at a time so there is only one recursive call per layer.

@@ -1,24 +1,8 @@
 # September 29
-2 homeworks due next week
-
-## Recursive backtracking
-
-
 
 ### N-Queens Problem
 Place `N-queens`  on an `NxN` chess board such that none of them can attack each other.
 
-
-
-```
-
-``` 
-~~~
-~~~
-```
-```
-```
-```
 ```python
 PlaceQueens(Q[1,..,n], r):
   if r = n + 1 
@@ -36,13 +20,7 @@ PlaceQueens(Q[1,..,n], r):
         placeQueens(Q[1,...,n], r + 1)
 ```
 
-
-```
 ### Subset sum 
-
-
-
-```
 ```python
 SubsetSum(X, T)
   if T = 0

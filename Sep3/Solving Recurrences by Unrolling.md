@@ -1,5 +1,5 @@
 # September 3, 2025
-Notes on tim ecomplexity.
+Notes on time complexity [[Time Complexity Definitions|Time Complexity Definitions]].
 1.  Constants don't matter
 2.  Polynomial order matters: n^b in O(n^a) for a >= b
 3.  Exponential dominates polynomial
@@ -7,16 +7,12 @@ Notes on tim ecomplexity.
 5.  Polynomial dominates logarithm
 6.  Logarithm base doesn't matter
 
-
-
 *   O(n1)            Worst
-*   O(c^n)             |
-*   O(n^c)             |
-*   O(nlog(n))         |
-*   O(n)               |
-*   O(log(n))        Best
-
-## Solving Recurrences by unrolling
+*   O(c^n)              |
+*   O(n^c)              |
+*   O(nlog(n))        |
+*   O(n)                  |
+*   O(log(n))       Best
 
 Function
 ```python

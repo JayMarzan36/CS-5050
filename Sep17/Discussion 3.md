@@ -1,5 +1,5 @@
 # September 17, 2025
-
+([[Master Theorem and Master Method]])
 
 ## Case 3 of Master Theorem
 `T(n) = 2T(n/2) + n^2`, `a = 2`, `b = 2`, `f(n) = n^2`.

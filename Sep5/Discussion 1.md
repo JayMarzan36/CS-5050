@@ -1,8 +1,5 @@
 # September 5, 2025
-
-
-
-## Discussion Questions
+([[Solving Recurrences by Unrolling]])
 
 1.  Let f and g be defined by f(n)=5^n, g(n) = 2^n. Which of the following are true?
 
@@ -33,12 +30,6 @@ With logorithms, we don't care about the base of the logorithm. So the growth of
 
 Since we got a positive real number, (b) is true.
 
-
-
-
-
-
-
 1.  Let f and g be defined by f(n)=n^2.1, g(n) = n^2. Which of the following are true?
 
 
@@ -50,13 +41,7 @@ Since we got a positive real number, (b) is true.
 
 Since `n` is in the base of both functions f and g. The limit f(n)/g(n) would reach infinity and not stop. (They would also grow pretty close together). But since the limit is infinity, (c) would be true, since (c) is true the rest are also true.
 
-
-
-
-
-
-
-4.  Show that the recurrence T(n) = T(n - 1) + n, T(1) = 1 is O(n^2).
+4.  Show that the recurrence  T(n) = T(n - 1) + n, T(1) = 1 is O(n^2).
 
 
 `T(n) = T(n - 1) + n`
@@ -87,7 +72,7 @@ Time complexity is `O(n^2)`, we have an `n` from `T(1) = 1` and another `n` from
 
 
 
-5.  Show that the recurrence T(n) = T(n / 2) + Theta(1), T(1) = 1 is O(log(n)).
+5.  Show that the recurrence ([[Solving Recurrences by Unrolling]]) T(n) = T(n / 2) + Theta(1), T(1) = 1 is O(log(n)).
 
 `T(n) = T(n / 2) + Theta(1)`
 

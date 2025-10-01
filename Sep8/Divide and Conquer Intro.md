@@ -1,8 +1,6 @@
 # September 8, 2025
 
-## Divide and Conquer
-
-### Problem - Getting Ready for Merge Sort
+## Problem - Getting Ready for Merge Sort
 
 How would you combine two sorted lists so that the result is a sorted list conatining the elemnts of both lists?
 
